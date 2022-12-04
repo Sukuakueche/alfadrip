@@ -1,0 +1,39 @@
+.title
+{
+    color: white;
+    text-align: center;
+}
+
+section{
+    padding-bottom: 20px;
+}
+
+
+section ul{
+    display: flex;
+    flex-wrap:wrap;
+    width: 80%;
+    margin:auto;
+    justify-content: center;
+}
+
+.card
+{
+    margin-right: 10px;
+    width:460px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-color: rgba(255, 255, 255, 0.877);
+    border-radius:5px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    padding: 10px;
+    text-indent: 10px;
+    height:180px;
+}
+
+.user
+{
+    text-align: center;
+    color:#065ddf;
+}

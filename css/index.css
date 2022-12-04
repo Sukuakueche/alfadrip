@@ -1,0 +1,20 @@
+section
+{
+    margin: auto;
+    width: 750px;
+    color: white;
+    margin-top: 360px;
+    padding: 8px;
+   
+}
+.btnVerProdutos
+{
+    display: block;
+    margin:auto;
+    margin-top: 35px;
+    width: 300px;
+    background-color: #ad0000;
+    color: white;
+    padding: 10px; 
+    text-align: center;   
+}

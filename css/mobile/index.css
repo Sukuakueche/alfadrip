@@ -1,0 +1,14 @@
+@media  (max-width:750px)
+{
+    section
+    {
+        margin-top: 50px;
+        width: 300px;
+        padding: 8px;        
+    }
+
+    .btnVerProdutos
+    {
+        width: 150px;    
+    }
+}

@@ -1,0 +1,82 @@
+a
+{
+    text-decoration: none;
+    color:unset;
+}
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Roboto;
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+body
+{
+    font-family: Roboto;
+    background-image: url('../images/fundoDefault.png');
+    background-size:100% 100%;
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+
+header
+{
+    width: 100%;
+    border-bottom: 1px solid rgb(255, 36, 36);
+    display: flex;
+    padding: 0px 60px;
+    align-items: center;
+}
+header .icone
+{
+    background-image: url('../images/logo.png');
+    background-size: 100% 100%;
+    width: 150px;
+    height: 28px;
+}
+
+
+nav
+{
+
+    width: fit-content;
+    margin-left: auto;
+   
+}
+
+ul
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding:0px;
+}
+
+nav li
+{
+    display: inline;
+    padding: 8px 26px;
+    cursor:pointer;
+    margin:0px;
+    color:white;
+}
+nav li:hover
+{
+    background-color: #ad0000;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul .active{
+    color: #d10101 !important;
+}
+
+nav ul .active:hover{
+    background-color: white  !important;
+}
