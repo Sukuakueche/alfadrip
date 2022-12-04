@@ -7,7 +7,7 @@
         background-color: rgba(248, 246, 246, 0.3);    
     }
     section ul{
-       width: 480px;
+       width: 400px;
     }
 
     .card
@@ -15,4 +15,15 @@
         width: 150px;
     }
     
+}
+
+@media (max-width: 410px){
+    section ul{
+        width: 100%;
+        padding: 0px 5px;
+       max-width: 290px;
+    }
+    .card{
+        width: 120px;
+    }
 }

@@ -32,6 +32,7 @@ header
     display: flex;
     padding: 0px 60px;
     align-items: center;
+    overflow: hidden;
 }
 header .icone
 {

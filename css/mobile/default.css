@@ -1,8 +1,31 @@
 @media  (max-width:750px){
     header{
-        padding: 0px 20px;
+        padding: 0px 10px;
     }
     nav li{
-        padding: 8px 10px;
+        padding: 8px 7px;
     }   
+}
+@media (max-width: 500px){
+    header{
+        padding: 4px 4px;
+    }
+    nav{
+        margin-left: 4px;
+    }
+    nav li{
+        /* padding: 4px 5px; */
+        font-size: 14px;
+    }
+    header .icone{
+        width: 80px;
+        height: 8px;
+    }
+}
+
+
+@media (max-width: 300px){
+    header{
+        padding: 0px;
+    }
 }
